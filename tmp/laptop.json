@@ -1,0 +1,62 @@
+{
+  "id":  "93d7bcf5-93a1-4321-a9cc-e0db3dfcb119",
+  "brand":  "Lenovo",
+  "name":  "Thinkpad X1",
+  "cpu":  {
+    "brand":  "Intel",
+    "name":  "Core i3",
+    "number_cores":  2,
+    "number_threads":  7,
+    "min_ghz":  3.308988993129888,
+    "max_ghz":  4.23872152898599
+  },
+  "ram":  {
+    "value":  "7",
+    "unit":  "GIGABYTE"
+  },
+  "gpus":  [
+    {
+      "brand":  "Nvidia",
+      "name":  "RTX 3060",
+      "min_ghz":  1.2366401535949723,
+      "max_ghz":  1.6804125399225633,
+      "memory":  {
+        "value":  "3",
+        "unit":  "GIGABYTE"
+      }
+    }
+  ],
+  "storages":  [
+    {
+      "driver":  "SSD",
+      "memory":  {
+        "value":  "957",
+        "unit":  "GIGABYTE"
+      }
+    },
+    {
+      "driver":  "HDD",
+      "memory":  {
+        "value":  "4",
+        "unit":  "GIGABYTE"
+      }
+    }
+  ],
+  "screen":  {
+    "size_inch":  14.6732235,
+    "resolution":  {
+      "width":  5550,
+      "height":  3122
+    },
+    "panel":  "OLED",
+    "multitouch":  false
+  },
+  "keyboard":  {
+    "layout":  "AZERTY",
+    "backlit":  true
+  },
+  "weight_kg":  2.317809210737087,
+  "price_usd":  2314.721033110827,
+  "release_year":  2019,
+  "updated_at":  "2023-06-14T16:57:25.387476300Z"
+}

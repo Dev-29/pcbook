@@ -2,9 +2,15 @@ package sample
 
 import (
 	"math/rand"
+	"time"
 
 	"github.com/Dev-29/pcbook/pb"
 )
+
+// Random seed for random generator
+func init() {
+	rand.Seed(time.Now().UnixNano())
+}
 
 func randomKeyboardLayout() pb.Keyboard_Layout {
 	switch rand.Intn(3) {
